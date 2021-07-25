@@ -2,6 +2,8 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/sampokuokkanen/hard_worker/badge)](https://www.codefactor.io/repository/github/sampokuokkanen/hard_worker) [![Gem Version](https://badge.fury.io/rb/hard_worker.svg)](https://badge.fury.io/rb/hard_worker)
 
+HardWorker is now known as [Belated](https://rubygems.org/gems/belated)! 
+
 This is HardWorker, a new Ruby backend job library! It supports running procs and classes in the background. 
  ~~Also, you lose all jobs if you restart the process.~~ It now uses YAML to load the queue into a file, which it then calls at startup to find the previous jobs. 
 
